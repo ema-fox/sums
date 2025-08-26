@@ -6,3 +6,9 @@ addEventListener('DOMContentLoaded', () => {
     }, 3000);
 
 });
+
+
+function buy_sofa(evt) {
+    document.querySelector('#sofa').style.opacity = 1;
+    document.querySelector('#buy_sofa').remove();
+}

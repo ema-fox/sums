@@ -1,5 +1,13 @@
-#player {
+#sofa {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  opacity: 0;
+  transition: opacity 1s;
 
+}
+
+#player {
   position: absolute;
   top: 200px;
   left: 300px;
