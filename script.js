@@ -8,6 +8,11 @@ addEventListener('DOMContentLoaded', () => {
 });
 
 
+function buy(name) {
+    document.querySelector(`#${name}`).style.opacity = 1;
+    document.querySelector(`#buy_${name}`).remove();
+}
+
 function buy_sofa(evt) {
     document.querySelector('#sofa').style.opacity = 1;
     document.querySelector('#buy_sofa').remove();
