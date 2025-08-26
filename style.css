@@ -4,8 +4,15 @@
   left: 500px;
   opacity: 0;
   transition: opacity 1s;
-
 }
+#bookcase {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
 
 #flower {
   position: absolute;
